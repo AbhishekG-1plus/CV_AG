@@ -1,0 +1,237 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+\usepackage{fontawesome}
+ \usepackage{ragged2e}
+\usepackage{graphicx}
+
+\pagestyle{fancy}
+\fancyhf{}
+%\usepackage[export]{adjustbox}
+
+\begin{document}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{Abhishek Gadekar}{ \urlstyle{same}\href{}{Junior Year}|\href{}{ Electrical Engineering  }| \href{}{IIT Jodhpur}\\
+\href{mailto:gadekar.1@iitj.ac.in}{gadekar.1@iitj.ac.in} | (+91) 8861643848}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{IIT JODHPUR}
+\descript{B.tech in Electrical Engineering}
+\location{ Expected 2024\\
+Cum. GPA: 7.9 / 10.0 (Upto 4th Sem)}
+\sectionsep
+
+\subsection{BASE PU COLLEGE}
+\descript{HSC | CLASS 12}
+\location{2018 | Hubli, India}
+\location{ Percentage : 95.17 \% }
+\sectionsep
+
+\subsection{Parivarthan Gurukul }
+\descript{ICSE | CLASS 10}
+\location{2016 | Hubli, India}
+\location{Percentage : 93.17 \%}
+\sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+\textbullet{} C \textbullet{}   C++ \textbullet{} Python \textbullet{} JAVA\\
+\descript{Machine Learning}
+\textbullet{} sklearn \textbullet{}   pytorch \textbullet{} tensorflow\\
+\textbullet{} pandas
+\sectionsep
+\subsection{Development}
+\textbullet{} HTML \textbullet{}   CSS \textbullet{} Javascript \textbullet{} ReactJS \\
+\textbullet{} NodeJS \textbullet{}   ExpressJS \textbullet{} Git\\
+\sectionsep
+\subsection{OTHER}
+\textbullet{} SolidWorks \textbullet{} Fusion360 \\
+\textbullet{} Front End Development \\
+\textbullet{} Competitive Programming \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+Github : \href{https://github.com/AbhishekG-1plus}{\bf AbhishekG} \href{https://github.com/AbhishekG-1plus}{\bf \faExternalLink } \\
+LinkedIn : \href{https://www.linkedin.com/in/abhishek-gadekar-4755631b8/}{\bf AbhishekG} \href{https://www.linkedin.com/in/abhishek-gadekar-4755631b8/}{\bf \faExternalLink } \\
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+\subsection{Undergraduate}
+•Pattern Recognition and \\
+Machine Learning \\
+•Data Structures and Algorithms \\
+•Probability, Statistics and Stochastic
+Processes \\
+•Introduction to Computer Science \\
+\sectionsep
+
+\subsection{MOOC}
+•Financial Markets Experience Program \\
+•Investment Banking Experience Program \\
+•ML by Andrew Ng
+\sectionsep
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+\runsubsection{Evirt Edtech Ltd}
+\descript{| Front End Web Developer }
+\location{May 2022 - July 2022 | India }
+\vspace{\topsep}
+\begin{tightemize}
+\item Developed a \textbf{single page application} using \textbf{React.js} for the ed-tech startup.
+\item Designed new features, layouts and \textbf{reduced the number of user-clicks} to boost sales and make a better UI. Maintained the code using \textbf{git and github.}
+\item Tech Stack: \textbf{HTML, CSS, React.js}
+\end{tightemize}
+\sectionsep
+
+
+\section{PROJECTS}
+
+\href{https://github.com/AbhishekG-1plus/SpeechEmotionRecognition}{\runsubsection{SPEECH EMOTION RECOGNITION}}
+\href{https://github.com/AbhishekG-1plus/SpeechEmotionRecognition}{\bf \faExternalLink}
+\descript{| PRML MAJOR PROJECT }
+\location{Guide: Dr.Richa Singh, CSE Department, IIT JODHPUR}
+\location{Jan 2022- May 2022}
+\begin{tightemize}
+\item Worked extensively on ML classifiers like \textbf{logistic regression, decision tress, random forest, MLP, XGboost and lightGBM} using relevant libraries.
+\item Designed and developed a \textbf{Speech Emotion Recognition} project studying various ML classifiers, performing \textbf{feature engineering, data augmentation and predictive analysis.}
+\href{https://github.com/AbhishekG-1plus/SpeechEmotionRecognition}{\textbf{Github }}\href{https://github.com/AbhishekG-1plus/SpeechEmotionRecognition}{\faExternalLink}
+\item In this project we attempt to detect underlying emotions in recorded speech by analysing the acoustic features of the audio data of recordings
+\end{tightemize}
+\sectionsep
+
+\href{https://www.canva.com/design/DAE_exBTJSs/3xtDxIXBPAgHxf_Sr0tNoA/view?utm_content=DAE_exBTJSs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton}{\runsubsection{MAV PROTOTYPE}}
+\href{https://www.canva.com/design/DAE_exBTJSs/3xtDxIXBPAgHxf_Sr0tNoA/view?utm_content=DAE_exBTJSs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton}{\bf \faExternalLink }
+\descript{| UG Researcher}
+\location{Guide: Dr.Nipun Arora, Mechanical Engineering, IIT JODHPUR}
+\location{July 2021 – May 2022}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item \textbf{Developed a prototype of MAV} (micro air vehicle) by using an open-source design for the flapping wing mechanism in \textbf{Autodesk Fusion360.}
+\item \textbf{Built real 3D-model} from scratch, \textbf{performed motion studies, and created engineering drawings} for fabrication at Flapping Wings Lab, IIT JODHPUR.
+\item \textbf{Demonstrated }the fabricated \textbf{Proof of Concept} in the Board meeting with \textbf{DRDO} officials for opening Centre of Excellence in IIT Jodhpur.
+\item\textbf{Skills : • CAD • Engineering Drawing • Aerodynamics • ML}
+\end{tightemize}
+\sectionsep
+
+
+
+
+\href{https://github.com/AbhishekG-1plus/BitcoinPricePrediction}{\runsubsection{BITCOIN PRICE PREDICTION}}\href{https://github.com/AbhishekG-1plus/BitcoinPricePrediction}{\bf \faExternalLink}
+\descript{| PRML BONUS PROJECT}
+\location{Guide: Dr.Richa Singh | Keras,Pandas,Sklearn, Pytorch,Numpy,Matplotlib}
+\location{Jan 2022- May 2022}
+\begin{tightemize}
+\item Explored the dataset containing \textbf{the opening and closing prices of bitcoins from April 2013 to August 2017.} Performed ADF test and removed trend and seasonal differencing.
+\item Compared and implemented various time series prediction methods \textbf{(like AR / MA/ ARIMA)} discussed in the report of the project.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Achievements}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item {Won \textbf{silver medal} for Blue-Yonders Sustainable Supply Chain problem in \textbf{ Inter IIT-Tech Meet 10.0} for IIT JODHPUR among 17 other IITs.}
+\item Awarded A grade in the course EM1010 (Engineering Mechanics).
+\item Achieved \textbf{98.72} percentile in \textbf{JEE(Mains),2020.}
+\item Achieved \textbf{AIR 7751} in \textbf{JEE(Advanced),2020.}
+\item Secured a \textbf{State Rank 629} in \textbf{Karnataka-CET,2020.}
+\item Secured a \textbf{seat in IISER-Kolkata} based on my performance in its entrance test \textbf{(IAT,2020).}
+\end{tightemize}
+\sectionsep
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
