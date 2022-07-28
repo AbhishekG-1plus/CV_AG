@@ -63,7 +63,7 @@
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\namesection{}{Abhishek Gadekar}{ \urlstyle{same}\href{}{Junior Year}|\href{}{ Electrical Engineering  }| \href{}{IIT Jodhpur}\\
+\namesection{}{Abhishek Gadekar}{ \urlstyle{same}\href{}{Pre-Final Year}|\href{}{ Electrical Engineering  }| \href{}{IIT Jodhpur}\\
 \href{mailto:gadekar.1@iitj.ac.in}{gadekar.1@iitj.ac.in} | (+91) 8861643848}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -83,7 +83,7 @@
 \subsection{IIT JODHPUR}
 \descript{B.tech in Electrical Engineering}
 \location{ Expected 2024\\
-Cum. GPA: 7.9 / 10.0 (Upto 4th Sem)}
+Cum. GPA: 7.99 / 10.0 (Upto 4th Sem)}
 \sectionsep
 
 \subsection{BASE PU COLLEGE}
@@ -135,8 +135,7 @@ LinkedIn : \href{https://www.linkedin.com/in/abhishek-gadekar-4755631b8/}{\bf Ab
 •Pattern Recognition and \\
 Machine Learning \\
 •Data Structures and Algorithms \\
-•Probability, Statistics and Stochastic
-Processes \\
+•Probability Statistics and Stochastic Processes \\
 •Introduction to Computer Science \\
 \sectionsep
 
@@ -168,7 +167,7 @@ Processes \\
 \location{May 2022 - July 2022 | India }
 \vspace{\topsep}
 \begin{tightemize}
-\item Developed a \textbf{single page application} using \textbf{React.js} for the ed-tech startup.
+\item Created a \textbf{single page application} using \textbf{React.js} for the ed-tech startup.
 \item Designed new features, layouts and \textbf{reduced the number of user-clicks} to boost sales and make a better UI. Maintained the code using \textbf{git and github.}
 \item Tech Stack: \textbf{HTML, CSS, React.js}
 \end{tightemize}
@@ -184,7 +183,7 @@ Processes \\
 \location{Jan 2022- May 2022}
 \begin{tightemize}
 \item Worked extensively on ML classifiers like \textbf{logistic regression, decision tress, random forest, MLP, XGboost and lightGBM} using relevant libraries.
-\item Designed and developed a \textbf{Speech Emotion Recognition} project studying various ML classifiers, performing \textbf{feature engineering, data augmentation and predictive analysis.}
+\item Designed and implemented a \textbf{Speech Emotion Recognition} project studying various ML classifiers, performing \textbf{feature engineering, data augmentation and predictive analysis.}
 \href{https://github.com/AbhishekG-1plus/SpeechEmotionRecognition}{\textbf{Github }}\href{https://github.com/AbhishekG-1plus/SpeechEmotionRecognition}{\faExternalLink}
 \item In this project we attempt to detect underlying emotions in recorded speech by analysing the acoustic features of the audio data of recordings
 \end{tightemize}
