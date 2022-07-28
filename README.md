@@ -1,7 +1,6 @@
 # CV_AG
 Resume updated on 28th July,2022.
-          ^
-          |
+  
 This is my resume made on 7 July, 2022. 
 
 
